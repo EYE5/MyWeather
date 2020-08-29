@@ -1,11 +1,6 @@
 .DS_Store
 node_modules
-/src
-/public
-/tests
-.env
-babel.config.js
-package.json
+/dist
 
 
 # local env files
