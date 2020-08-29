@@ -1,6 +1,6 @@
 <template>
 
-<div class="weather" :style="{background: `url(https://picsum.photos/${windowSize.width}/${windowSize.height}/?blur=1) no-repeat`, backgroundSize: 'cover'}">
+<div class="weather" :style="{background: `url(https://picsum.photos/${windowSize.width}/${windowSize.height}) no-repeat`, backgroundSize: 'cover'}">
     <div v-if="!loading && current" class="tone">
         <div >
             <h1 class="weather-status">{{current.weather[0].main}}</h1>
